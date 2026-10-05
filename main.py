@@ -11,3 +11,7 @@ class Square(Shape):
         self.side = side
     def area(self):
         return self.side * self.side
+if __name__ == "__main__":
+    shapes=[Circle(1), Square(1)]
+    for shape in shapes:
+        print(f"图形: {shape.__class__.__name__}, 面积: {shape.area()}")
