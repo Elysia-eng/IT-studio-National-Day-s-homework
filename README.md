@@ -1,0 +1,3 @@
+首先创建基类Shape，定义area方法
+再分别创建子类Circle和Square，重写方法area并用公式计算面积
+创建列表Shapes包含两个子类，根据多态调用area方法，输出面积
